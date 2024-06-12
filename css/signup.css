@@ -1,0 +1,40 @@
+body{
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+.signup{
+    position: relative;
+    /* width: 80% !important; */
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.signup h1{
+    color: #17a2b8;
+}
+.signup input{
+    border-color: #fff;
+}
+
+.signup a{
+    text-decoration: none;
+    
+}
+.signup a:hover{
+    border-bottom: 1px solid #fff;
+} 
+.form-control:focus {
+    
+    box-shadow: none;
+    border-color: rgba(23, 162, 184,2) !important;
+}
+input{
+    color: #fff !important;
+}
+.form-control{
+    background-color: transparent !important;
+
+}
+.form-control::placeholder{
+    color: #fff !important;
+    opacity: 0.5;
+}

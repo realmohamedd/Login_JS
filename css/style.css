@@ -1,0 +1,84 @@
+body{
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+.login{
+    position: relative;
+    width: 80% !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.login h1{
+    color: #17a2b8;
+}
+.login input{
+    border-color: #fff;
+}
+
+.login a{
+    text-decoration: none;
+    
+}
+.login a:hover{
+    border-bottom: 1px solid #fff;
+} 
+.form-control::placeholder{
+    color: #fff !important;
+    opacity: 0.5;
+}
+.form-control{
+    background-color: transparent !important;
+
+}
+input{
+    color: #fff !important;
+}
+
+.form-control:focus {
+    
+    box-shadow: none;
+    border-color: rgba(23, 162, 184,2) !important;
+}
+/* ############################################################# */
+
+.signup{
+    position: relative;
+    /* width: 80% !important; */
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.signup h1{
+    color: #17a2b8;
+}
+.signup input{
+    border-color: #fff;
+}
+
+.signup a{
+    text-decoration: none;
+    
+}
+.signup a:hover{
+    border-bottom: 1px solid #fff;
+} 
+/* ################################################ */
+.navbar {
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.inPage .anchor a{
+    color: #fff;
+}
+.inPage .page {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inPage .page .title h1{
+    color: #17a2b8;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

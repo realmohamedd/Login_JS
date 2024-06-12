@@ -1,0 +1,29 @@
+body{
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+.navbar {
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.navbar .logo h1{
+    font-size: 23px;
+    color: #fff;
+    margin-left: 40px;
+}
+.navbar .logout button{
+    color: gray;
+    margin-right: 40px;
+}
+
+.welcome{
+    
+    height: 90vh;
+}
+
+.welcome .name{
+    width: 700px;
+    height: 200px;
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
